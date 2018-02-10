@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.video.freefilm.sk" name="freefilm.sk" version="1.0.0" provider-name="Blazej Rypak">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.urlresolver" version="4.0.17"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="sk">freefilm.sk</summary>
+		<description lang="en">Sleduj filmy online zdarma na freefilm.sk</description>
+		<platform>all</platform>
+		<genre>movies, sk</genre>
+	</extension>
+</addon>
+
+<addon id="plugin.video.sledujufilmy.cz" name="sledujufilmy.cz" version="1.0.0" provider-name="Blazej Rypak">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.urlresolver" version="4.0.17"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="sk">sledujufilmy.cz</summary>
+		<description lang="en">Sleduj filmy online zdarma na SledujuFilmy.cz</description>
+		<platform>all</platform>
+		<genre>movies, sk</genre>
+	</extension>
+</addon>
+</addons>
