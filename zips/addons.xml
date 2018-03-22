@@ -32,7 +32,7 @@
 	</extension>
 </addon>
 
-<addon id="repository.xbmc.bubo" name="Kodi CZ/SK PLUGINS [BUBO]" version="1.0.0" provider-name="Bubko">
+<addon id="repository.xbmc.bubo" name="Kodi CZ/SK PLUGINS [BUBO]" version="1.0.3" provider-name="Bubko">
     <extension point="xbmc.addon.repository" name="Kodi CZ/SK PLUGINS [BUBO]">
         <info compressed="false">https://raw.githubusercontent.com/Bubko/kodi-plugins/master/zips/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/Bubko/kodi-plugins/master/zips/addons.xml.md5</checksum>

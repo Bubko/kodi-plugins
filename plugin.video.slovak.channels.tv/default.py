@@ -135,7 +135,7 @@ def build_url(query):
 def channels_of_category(category_name):
     for name in channels[category_name]:
         url = build_url({'mode': 'play', 'url': channels[category_name][name]})
-        li = xbmcgui.ListItem(channels_names[category_name][name].encode('utf-8'))
+        li = xbmcgui.ListItem(channels_names[category_name][name])
         li.setProperty('IsPlayable', 'true')
         xbmcplugin.addDirectoryItem(handle=addon_handle, url=url,
                                     listitem=li, isFolder=True)
