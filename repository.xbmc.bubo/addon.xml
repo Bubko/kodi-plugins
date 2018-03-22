@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.xbmc.bubo" name="Kodi CZ/SK PLUGINS [BUBO]" version="1.0.0" provider-name="Bubko">
+    <extension point="xbmc.addon.repository" name="Kodi CZ/SK PLUGINS [BUBO]">
+        <info compressed="false">https://github.com/Bubko/kodi-plugins/blob/master/zips/addons.xml</info>
+        <checksum>https://github.com/Bubko/kodi-plugins/blob/master/zips/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/Bubko/kodi-plugins/tree/master/zips</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Kodi CZ/SK PLUGINS [BUBO]</summary>
+        <description>Stiahni a instaluj CZ/SK addons.</description>
+        <platform>all</platform>
+    </extension>
+</addon>

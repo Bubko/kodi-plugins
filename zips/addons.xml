@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
+<addon id="plugin.video.veselepohadky.cz" name="veselepohadky.cz" version="0.1.6" provider-name="Blazej Rypak">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.urlresolver"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="sk">veselepohadky.cz</summary>
+		<description lang="en">Sleduj rozpravky online zdarma na veselepohadky.cz</description>
+		<platform>all</platform>
+		<genre>movies, sk</genre>
+	</extension>
+</addon>
+
 <addon id="plugin.video.freefilm.sk" name="freefilm.sk" version="1.0.0" provider-name="Blazej Rypak">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
@@ -16,6 +32,35 @@
 	</extension>
 </addon>
 
+<addon id="repository.xbmc.bubo" name="Kodi CZ/SK PLUGINS [BUBO]" version="1.0.0" provider-name="Bubko">
+    <extension point="xbmc.addon.repository" name="Kodi CZ/SK PLUGINS [BUBO]">
+        <info compressed="false">https://github.com/Bubko/kodi-plugins/blob/master/zips/addons.xml</info>
+        <checksum>https://github.com/Bubko/kodi-plugins/blob/master/zips/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/Bubko/kodi-plugins/tree/master/zips</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Kodi CZ/SK PLUGINS [BUBO]</summary>
+        <description>Stiahni a instaluj CZ/SK addons.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="plugin.video.freeserial.sk" name="freeserial.sk" version="1.0.0" provider-name="Blazej Rypak">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.urlresolver" version="4.0.17"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="sk">freeserial.sk</summary>
+		<description lang="en">Sleduj serialy online zdarma na freeserial.sk</description>
+		<platform>all</platform>
+		<genre>movies, sk</genre>
+	</extension>
+</addon>
+
 <addon id="plugin.video.sledujufilmy.cz" name="sledujufilmy.cz" version="1.0.0" provider-name="Blazej Rypak">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
@@ -27,6 +72,37 @@
 	<extension point="xbmc.addon.metadata">
 		<summary lang="sk">sledujufilmy.cz</summary>
 		<description lang="en">Sleduj filmy online zdarma na SledujuFilmy.cz</description>
+		<platform>all</platform>
+		<genre>movies, sk</genre>
+	</extension>
+</addon>
+
+<addon id="plugin.video.topserialy.sk" name="topserialy.sk" version="1.0.0" provider-name="Blazej Rypak">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.urlresolver" version="4.0.17"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="sk">topserialy.sk</summary>
+		<description lang="en">Sleduj serialy online zdarma na topserialy.sk</description>
+		<platform>all</platform>
+		<genre>movies, sk</genre>
+	</extension>
+</addon>
+
+<addon id="plugin.video.slovak.channels.tv" name="LIVE TV SK-CZ" version="1.0.0" provider-name="Blazej Rypak">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="sk">LIVE TV SK-CZ</summary>
+		<description lang="en">Sleduj LIVE TV slovenských, českých a zahraničných kanálov</description>
 		<platform>all</platform>
 		<genre>movies, sk</genre>
 	</extension>

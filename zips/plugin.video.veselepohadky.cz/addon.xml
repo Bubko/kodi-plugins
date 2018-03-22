@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.veselepohadky.cz" name="veselepohadky.cz" version="0.1.6" provider-name="Blazej Rypak">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.urlresolver"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="sk">veselepohadky.cz</summary>
+		<description lang="en">Sleduj rozpravky online zdarma na veselepohadky.cz</description>
+		<platform>all</platform>
+		<genre>movies, sk</genre>
+	</extension>
+</addon>
